@@ -1,0 +1,10 @@
+--- api_options.proto	2022-09-25 19:30:36.017105022 -0500
++++ _api_options.proto	2022-09-25 19:30:39.413752359 -0500
+@@ -1,6 +1,7 @@
+ syntax = "proto2";
+ import "google/protobuf/descriptor.proto";
+ 
++option go_package = "./esphome-go";
+ 
+ enum APISourceType {
+     SOURCE_BOTH = 0;
